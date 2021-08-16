@@ -6,7 +6,7 @@
   <link href="https://liuanx.github.io/atom.xml" rel="self"/>
   
   <link href="https://liuanx.github.io/"/>
-  <updated>2021-08-15T09:21:44.937Z</updated>
+  <updated>2021-08-16T15:31:20.574Z</updated>
   <id>https://liuanx.github.io/</id>
   
   <author>
@@ -17,11 +17,26 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>HTML 学习笔记</title>
+    <link href="https://liuanx.github.io/2021/08/16/HTML%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>https://liuanx.github.io/2021/08/16/HTML%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
+    <published>2021-08-16T15:31:20.000Z</published>
+    <updated>2021-08-16T15:31:20.574Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;摘要&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>利用Hexo + Github Pages创建个人博客</title>
-    <link href="https://liuanx.github.io/2021/08/14/21-32-undefined/"/>
-    <id>https://liuanx.github.io/2021/08/14/21-32-undefined/</id>
+    <link href="https://liuanx.github.io/2021/08/14/%E5%88%A9%E7%94%A8Hexo%20+%20Github%20Pages%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>https://liuanx.github.io/2021/08/14/%E5%88%A9%E7%94%A8Hexo%20+%20Github%20Pages%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</id>
     <published>2021-08-14T13:32:27.000Z</published>
-    <updated>2021-08-15T09:21:44.937Z</updated>
+    <updated>2021-08-16T15:32:59.761Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;​    利用Hexo和GIthub Pages搭建的静态博客，是完全免费并且以非常稳定著称。&lt;/p&gt;
@@ -40,10 +55,10 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://liuanx.github.io/2021/08/14/14-18-undefined/"/>
-    <id>https://liuanx.github.io/2021/08/14/14-18-undefined/</id>
+    <link href="https://liuanx.github.io/2021/08/14/Hello%20World/"/>
+    <id>https://liuanx.github.io/2021/08/14/Hello%20World/</id>
     <published>2021-08-14T06:18:55.152Z</published>
-    <updated>2021-08-15T09:22:05.684Z</updated>
+    <updated>2021-08-16T15:32:15.737Z</updated>
     
     
     <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</summary>
