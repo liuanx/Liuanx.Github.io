@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://liuanx.github.io/about/index.html</loc>
+    
+    <lastmod>2021-08-16</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://liuanx.github.io/tags/index.html</loc>
     
     <lastmod>2021-08-15</lastmod>
@@ -17,13 +24,6 @@
   
   <url>
     <loc>https://liuanx.github.io/2021/08/14/21-32-undefined/</loc>
-    
-    <lastmod>2021-08-15</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://liuanx.github.io/about/index.html</loc>
     
     <lastmod>2021-08-15</lastmod>
     
