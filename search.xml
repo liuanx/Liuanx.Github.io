@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2021/08/14/14-18-undefined/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<span id="more"></span>
+
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;
+</code></pre>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server
+</code></pre>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate
+</code></pre>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy
+</code></pre>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>博客搭建</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>利用Hexo + Github Pages创建个人博客</title>
+    <url>/2021/08/14/21-32-undefined/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>​    利用Hexo和GIthub Pages搭建的静态博客，是完全免费并且以非常稳定著称。</p>
+<p>接下来本文就详细介绍如何使用Hexo + Github Pages搭建个人博客的详细操作。</p>
+<span id="more"></span>
+
+<hr>
+<h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><hr>
+<h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>Github Pages</p>
+<ul>
+<li><a href="https://pages.github.com/">Github Pages</a></li>
+</ul>
+<p>Github Pages 是 Github 官方提供的免费的静态站点托管服务，让我们可以利用 Github 仓库托管和发布自己的静态网站。</p>
+<p>Hexo</p>
+<ul>
+<li><a href="https://hexo.io/zh-cn/">Hexo</a></li>
+</ul>
+<p>Hexo 基于 Node.js 运行，是一个简洁高效的静态博客框架。</p>
+<hr>
+<h3 id="1-准备"><a href="#1-准备" class="headerlink" title="1. 准备"></a>1. 准备</h3><ul>
+<li><p>环境搭建</p>
+<p>因为 Hexo 是基于 Node.js 运行，我们需要安装 Node.js。且静态博客是在本地搭建在上传至 Github，我们还需要安装 Git。</p>
+<ul>
+<li><a href="https://nodejs.org/zh-cn/">Node.js</a></li>
+<li><a href="https://git-scm.com/downloads">Git</a></li>
+</ul>
+<p>下载 Node.js 和 Git 并安装，一直点击“下一步”完成安装。</p>
+<p>安装完成后，可通过 Win + R 输入 cmd 打开命令提示符，依次输入 <code>node -v </code>,<code>npm -v</code>,<code>git --version</code>并回车，出现如下图版本号即可。</p>
+<p><img src="https://z3.ax1x.com/2021/08/15/fgpkNR.png" alt="命令提示符"></p>
+</li>
+</ul>
+<hr>
+<ul>
+<li>连接 Github</li>
+</ul>
+<p>在桌面空白处右键 - &gt; <code>Git Bash Here</code>，输入指令</p>
+<pre><code class="python">$ git config -- global user.name &quot;Github 用户名&quot;
+$ git config --global user.email &quot;GitHub 邮箱&quot;
+</code></pre>
+<hr>
+<ul>
+<li>创建 Github Pages 仓库</li>
+</ul>
+<p>GIthub 主页右上角加号 - &gt; <code>New repository</code>：</p>
+<ul>
+<li>Repository name 中输入<code>用户名.github.io</code></li>
+<li>勾选 <code>“Initialize this repository with a README&quot;</code></li>
+<li>Description 选填</li>
+</ul>
+<p>最后 Create repository 创建。</p>
+<img src="https://www.hualigs.cn/image/6118beb5163de.jpg" alt="创建 Github 仓库.png" style="zoom:67%;" />
+
+<hr>
+<ul>
+<li>安装 Hexo </li>
+</ul>
+<p>在桌面空白处右键 - &gt; <code>Git Bash Here</code> 输入指令安装 Hexo:</p>
+<pre><code class="python">$ npm install -g hexo-cli
+</code></pre>
+<p>稍等一会安装完成</p>
+<hr>
+<h3 id="2-在本地部署-Hexo-博客程序"><a href="#2-在本地部署-Hexo-博客程序" class="headerlink" title="2. 在本地部署 Hexo 博客程序"></a>2. 在本地部署 Hexo 博客程序</h3><p>初始化并安装所需组件:</p>
+<pre><code class="python">$ hexo init      # 初始化
+$ npm install    # 安装组件
+</code></pre>
+<p>等待命令运行完成依次输入下面指令，生成页面并启动本地服务器进行预览:</p>
+<pre><code class="python">$ hexo g        # 生成页面
+$ hexo s        # 启动本地服务器预览
+</code></pre>
+<p>等待命令运行完成在浏览器中访问 <code>http://localhost:4000</code>，出现 Hexo 默认页面，在本地博客搭建大成功！(＾Ｕ＾)ノ~ＹＯ</p>
+<hr>
+<h3 id="3-部署-Hexo-到-GithubPages仓库"><a href="#3-部署-Hexo-到-GithubPages仓库" class="headerlink" title="3. 部署 Hexo 到 GithubPages仓库"></a>3. 部署 Hexo 到 GithubPages仓库</h3><p>接下来是将在本地搭建成功的博客上传到 Github Pages 仓库，使其可以在互联网中访问</p>
+<p>首先是安装 <code>hexo-deployer-git</code>:</p>
+<pre><code class="python">$ npm install nexo-deployer-git --save
+</code></pre>
+<p>然后修改博客文件下的 _config.yml 文件末尾的 <code>Deployment</code> 部分:</p>
+<pre><code class="markdown">deploy:
+  type: git
+  repository: git@github.com:用户名/用户名.github.io.git
+  branch: main
+</code></pre>
+<p>修改完成后输入指令将网站上传部署到 GIthub Pages:</p>
+<pre><code class="python">$ hexo d
+</code></pre>
+<p>部署完成，访问我们的 Github Pages 域名 <code>https://用户名.github.io</code>.</p>
+<hr>
+<h3 id="4-开始使用"><a href="#4-开始使用" class="headerlink" title="4. 开始使用"></a>4. 开始使用</h3><ul>
+<li>发布文章</li>
+</ul>
+<p>进入博客所在目录，右键 - &gt; <code>Git Bash Here</code>，创建博文：</p>
+<pre><code class="python">hexo new &quot;My New Post&quot;
+</code></pre>
+<hr>
+<ul>
+<li>常用指令</li>
+</ul>
+<pre><code class="python">hexo new &quot;name&quot;       # 新建文章
+hexo new page &quot;name&quot;  # 新建页面
+hexo g                # 生成页面
+hexo d                # 部署
+hexo g -d             # 生成页面并部署
+hexo s                # 本地预览
+hexo clean            # 清除缓存和已生成的静态文件
+hexo help             # 帮助
+</code></pre>
+<hr>
+<ul>
+<li>更换主题</li>
+</ul>
+<p>在 <a href="https://hexo.io/themes/">Themes | Hexo</a> 选择一个喜欢的主题，下载并放至博客文件夹中的 <code>/themes</code>中。</p>
+<hr>
+<ul>
+<li>网站设置和主题设置</li>
+</ul>
+<p>可以去相应的主题网站的文档中了解，例 <a href="http://theme-next.iissnan.com/getting-started.html">Next使用文档</a></p>
+<hr>
+<ul>
+<li>Hexo 设置文章摘要</li>
+</ul>
+<p>Hexo 主页文章列表默认会显示文章全文，可以在文章中插入 <code>&lt;!--more--&gt;</code> 进行分段。</p>
+<p>该代码前面的内容会作为摘要显示，而后面的内容会替换为<code> “Read More”</code> 隐藏起来。</p>
+<img src="https://z3.ax1x.com/2021/08/15/fgpA41.png" alt="展示文章摘要功能" style="zoom:67%;" />
+
+<hr>
+<ul>
+<li>设置网站图标</li>
+</ul>
+<p>进入 themes/主题 文件夹，打开 <code>_config.yml</code> 配置文件，找到<code> favicon</code> 修改。（不同主题可能略有差别）</p>
+<hr>
+<h3 id="5-结语"><a href="#5-结语" class="headerlink" title="5. 结语"></a>5. 结语</h3><p>下面就可以开始博客的使用了，Hexo 是纯静态的博客所以一定不要忘了在本地完成文章再部署至 Github Pages。</p>
+]]></content>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>博客搭建</tag>
+        <tag>前端</tag>
+      </tags>
+  </entry>
+</search>
