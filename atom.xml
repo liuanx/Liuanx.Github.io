@@ -6,7 +6,7 @@
   <link href="https://liuanx.github.io/atom.xml" rel="self"/>
   
   <link href="https://liuanx.github.io/"/>
-  <updated>2021-08-16T15:31:20.574Z</updated>
+  <updated>2021-08-18T02:44:37.687Z</updated>
   <id>https://liuanx.github.io/</id>
   
   <author>
@@ -21,13 +21,19 @@
     <link href="https://liuanx.github.io/2021/08/16/23-31-20/"/>
     <id>https://liuanx.github.io/2021/08/16/23-31-20/</id>
     <published>2021-08-16T15:31:20.000Z</published>
-    <updated>2021-08-16T15:31:20.574Z</updated>
+    <updated>2021-08-18T02:44:37.687Z</updated>
     
     
     <summary type="html">&lt;p&gt;摘要&lt;/p&gt;</summary>
     
     
     
+    
+    <category term="HTML" scheme="https://liuanx.github.io/tags/HTML/"/>
+    
+    <category term="前端" scheme="https://liuanx.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="学习" scheme="https://liuanx.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
@@ -45,11 +51,11 @@
     
     
     
+    <category term="前端" scheme="https://liuanx.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
     <category term="Hexo" scheme="https://liuanx.github.io/tags/Hexo/"/>
     
     <category term="博客搭建" scheme="https://liuanx.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
-    
-    <category term="前端" scheme="https://liuanx.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   

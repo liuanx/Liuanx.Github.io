@@ -8,6 +8,11 @@
 
 <p>正文</p>
 ]]></content>
+      <tags>
+        <tag>HTML</tag>
+        <tag>前端</tag>
+        <tag>学习</tag>
+      </tags>
   </entry>
   <entry>
     <title>Hello World</title>
@@ -166,9 +171,9 @@ hexo help             # 帮助
 <h3 id="5-结语"><a href="#5-结语" class="headerlink" title="5. 结语"></a>5. 结语</h3><p>下面就可以开始博客的使用了，Hexo 是纯静态的博客所以一定不要忘了在本地完成文章再部署至 Github Pages。</p>
 ]]></content>
       <tags>
+        <tag>前端</tag>
         <tag>Hexo</tag>
         <tag>博客搭建</tag>
-        <tag>前端</tag>
       </tags>
   </entry>
 </search>
