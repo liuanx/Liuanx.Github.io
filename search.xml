@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>HTML 学习笔记</title>
-    <url>/2021/08/16/23-31-20/</url>
-    <content><![CDATA[<p>摘要</p>
-<span id="more"></span>
-
-<p>正文</p>
-]]></content>
-      <tags>
-        <tag>HTML</tag>
-        <tag>前端</tag>
-        <tag>学习</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2021/08/14/14-18-55/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -89,7 +75,7 @@ $ git config --global user.email &quot;GitHub 邮箱&quot;
 <li>Description 选填</li>
 </ul>
 <p>最后 Create repository 创建。</p>
-<img src="https://www.hualigs.cn/image/6118beb5163de.jpg" alt="创建 Github 仓库.png" style="zoom:67%;" />
+<img src="https://z3.ax1x.com/2021/08/15/fgpV9x.png" alt="创建 Github 仓库.png" style="zoom:67%;" />
 
 <hr>
 <ul>
@@ -171,9 +157,9 @@ hexo help             # 帮助
 <h3 id="5-结语"><a href="#5-结语" class="headerlink" title="5. 结语"></a>5. 结语</h3><p>下面就可以开始博客的使用了，Hexo 是纯静态的博客所以一定不要忘了在本地完成文章再部署至 Github Pages。</p>
 ]]></content>
       <tags>
-        <tag>前端</tag>
         <tag>Hexo</tag>
         <tag>博客搭建</tag>
+        <tag>前端</tag>
       </tags>
   </entry>
 </search>

@@ -6,7 +6,7 @@
   <link href="https://liuanx.github.io/atom.xml" rel="self"/>
   
   <link href="https://liuanx.github.io/"/>
-  <updated>2021-08-18T02:44:37.687Z</updated>
+  <updated>2022-07-14T10:26:40.360Z</updated>
   <id>https://liuanx.github.io/</id>
   
   <author>
@@ -17,32 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>HTML 学习笔记</title>
-    <link href="https://liuanx.github.io/2021/08/16/23-31-20/"/>
-    <id>https://liuanx.github.io/2021/08/16/23-31-20/</id>
-    <published>2021-08-16T15:31:20.000Z</published>
-    <updated>2021-08-18T02:44:37.687Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;摘要&lt;/p&gt;</summary>
-    
-    
-    
-    
-    <category term="HTML" scheme="https://liuanx.github.io/tags/HTML/"/>
-    
-    <category term="前端" scheme="https://liuanx.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-    <category term="学习" scheme="https://liuanx.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
-    
-  </entry>
-  
-  <entry>
     <title>利用Hexo + Github Pages创建个人博客</title>
     <link href="https://liuanx.github.io/2021/08/14/21-32-27/"/>
     <id>https://liuanx.github.io/2021/08/14/21-32-27/</id>
     <published>2021-08-14T13:32:27.000Z</published>
-    <updated>2021-08-18T10:42:21.472Z</updated>
+    <updated>2022-07-14T10:26:40.360Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;​    利用Hexo和GIthub Pages搭建的静态博客，是完全免费并且以非常稳定著称。&lt;/p&gt;
@@ -51,11 +30,11 @@
     
     
     
-    <category term="前端" scheme="https://liuanx.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
-    
     <category term="Hexo" scheme="https://liuanx.github.io/tags/Hexo/"/>
     
     <category term="博客搭建" scheme="https://liuanx.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+    <category term="前端" scheme="https://liuanx.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
