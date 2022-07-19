@@ -27,13 +27,15 @@
   <entry>
     <title>利用Hexo + Github Pages创建个人博客</title>
     <url>/2021/08/14/21-32-27/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>​    利用Hexo和GIthub Pages搭建的静态博客，是完全免费并且以非常稳定著称。</p>
+    <content><![CDATA[<p><strong>前言</strong></p>
+<p>​    利用Hexo和GIthub Pages搭建的静态博客，是完全免费并且以非常稳定著称。</p>
 <p>接下来本文就详细介绍如何使用Hexo + Github Pages搭建个人博客的详细操作。</p>
 <span id="more"></span>
 
 <hr>
-<h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><hr>
-<h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>Github Pages</p>
+<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><p><a href="#1-%E5%87%86%E5%A4%87">1. 准备</a><br><a href="#2-%E5%9C%A8%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2-hexo-%E5%8D%9A%E5%AE%A2%E7%A8%8B%E5%BA%8F">2. 在本地部署 Hexo 博客程序</a><br><a href="#3-%E9%83%A8%E7%BD%B2-hexo-%E5%88%B0-githubpages%E4%BB%93%E5%BA%93">3.部署 hexo 到 githubpages仓库</a><br><a href="#4-%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8">4.开始使用</a><br><a href="#5-%E7%BB%93%E8%AF%AD">5.结语</a></p>
+<hr>
+<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>Github Pages</p>
 <ul>
 <li><a href="https://pages.github.com/">Github Pages</a></li>
 </ul>
@@ -44,7 +46,7 @@
 </ul>
 <p>Hexo 基于 Node.js 运行，是一个简洁高效的静态博客框架。</p>
 <hr>
-<h3 id="1-准备"><a href="#1-准备" class="headerlink" title="1. 准备"></a>1. 准备</h3><ul>
+<h2 id="1-准备"><a href="#1-准备" class="headerlink" title="1. 准备"></a>1. 准备</h2><ul>
 <li><p>环境搭建</p>
 <p>因为 Hexo 是基于 Node.js 运行，我们需要安装 Node.js。且静态博客是在本地搭建在上传至 Github，我们还需要安装 Git。</p>
 <ul>
@@ -86,7 +88,8 @@ $ git config --global user.email &quot;GitHub 邮箱&quot;
 </code></pre>
 <p>稍等一会安装完成</p>
 <hr>
-<h3 id="2-在本地部署-Hexo-博客程序"><a href="#2-在本地部署-Hexo-博客程序" class="headerlink" title="2. 在本地部署 Hexo 博客程序"></a>2. 在本地部署 Hexo 博客程序</h3><p>初始化并安装所需组件:</p>
+<p><a href="#%E7%9B%AE%E5%BD%95">回到目录</a></p>
+<h2 id="2-在本地部署-Hexo-博客程序"><a href="#2-在本地部署-Hexo-博客程序" class="headerlink" title="2. 在本地部署 Hexo 博客程序"></a>2. 在本地部署 Hexo 博客程序</h2><p>初始化并安装所需组件:</p>
 <pre><code class="python">$ hexo init      # 初始化
 $ npm install    # 安装组件
 </code></pre>
@@ -96,7 +99,8 @@ $ hexo s        # 启动本地服务器预览
 </code></pre>
 <p>等待命令运行完成在浏览器中访问 <code>http://localhost:4000</code>，出现 Hexo 默认页面，在本地博客搭建大成功！(＾Ｕ＾)ノ~ＹＯ</p>
 <hr>
-<h3 id="3-部署-Hexo-到-GithubPages仓库"><a href="#3-部署-Hexo-到-GithubPages仓库" class="headerlink" title="3. 部署 Hexo 到 GithubPages仓库"></a>3. 部署 Hexo 到 GithubPages仓库</h3><p>接下来是将在本地搭建成功的博客上传到 Github Pages 仓库，使其可以在互联网中访问</p>
+<p><a href="#%E7%9B%AE%E5%BD%95">回到目录</a></p>
+<h2 id="3-部署-Hexo-到-GithubPages仓库"><a href="#3-部署-Hexo-到-GithubPages仓库" class="headerlink" title="3. 部署 Hexo 到 GithubPages仓库"></a>3. 部署 Hexo 到 GithubPages仓库</h2><p>接下来是将在本地搭建成功的博客上传到 Github Pages 仓库，使其可以在互联网中访问</p>
 <p>首先是安装 <code>hexo-deployer-git</code>:</p>
 <pre><code class="python">$ npm install nexo-deployer-git --save
 </code></pre>
@@ -111,7 +115,8 @@ $ hexo s        # 启动本地服务器预览
 </code></pre>
 <p>部署完成，访问我们的 Github Pages 域名 <code>https://用户名.github.io</code>.</p>
 <hr>
-<h3 id="4-开始使用"><a href="#4-开始使用" class="headerlink" title="4. 开始使用"></a>4. 开始使用</h3><ul>
+<p><a href="#%E7%9B%AE%E5%BD%95">回到目录</a></p>
+<h2 id="4-开始使用"><a href="#4-开始使用" class="headerlink" title="4. 开始使用"></a>4. 开始使用</h2><ul>
 <li>发布文章</li>
 </ul>
 <p>进入博客所在目录，右键 - &gt; <code>Git Bash Here</code>，创建博文：</p>
@@ -154,7 +159,8 @@ hexo help             # 帮助
 </ul>
 <p>进入 themes/主题 文件夹，打开 <code>_config.yml</code> 配置文件，找到<code> favicon</code> 修改。（不同主题可能略有差别）</p>
 <hr>
-<h3 id="5-结语"><a href="#5-结语" class="headerlink" title="5. 结语"></a>5. 结语</h3><p>下面就可以开始博客的使用了，Hexo 是纯静态的博客所以一定不要忘了在本地完成文章再部署至 Github Pages。</p>
+<p><a href="#%E7%9B%AE%E5%BD%95">回到目录</a></p>
+<h2 id="5-结语"><a href="#5-结语" class="headerlink" title="5. 结语"></a>5. 结语</h2><p>下面就可以开始博客的使用了，Hexo 是纯静态的博客所以一定不要忘了在本地完成文章再部署至 Github Pages。</p>
 ]]></content>
       <tags>
         <tag>Hexo</tag>
