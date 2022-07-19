@@ -1,30 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2021/08/14/14-18-55/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<span id="more"></span>
-
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;
-</code></pre>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server
-</code></pre>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate
-</code></pre>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy
-</code></pre>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>博客搭建</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>利用Hexo + Github Pages创建个人博客</title>
     <url>/2021/08/14/21-32-27/</url>
     <content><![CDATA[<p><strong>前言</strong></p>
@@ -33,7 +9,7 @@
 <span id="more"></span>
 
 <hr>
-<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><p><a href="#1-%E5%87%86%E5%A4%87">1. 准备</a><br><a href="#2-%E5%9C%A8%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2-hexo-%E5%8D%9A%E5%AE%A2%E7%A8%8B%E5%BA%8F">2. 在本地部署 Hexo 博客程序</a><br><a href="#3-%E9%83%A8%E7%BD%B2-hexo-%E5%88%B0-githubpages%E4%BB%93%E5%BA%93">3.部署 hexo 到 githubpages仓库</a><br><a href="#4-%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8">4.开始使用</a><br><a href="#5-%E7%BB%93%E8%AF%AD">5.结语</a></p>
+<p>[TOC]</p>
 <hr>
 <h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>Github Pages</p>
 <ul>
@@ -55,7 +31,7 @@
 </ul>
 <p>下载 Node.js 和 Git 并安装，一直点击“下一步”完成安装。</p>
 <p>安装完成后，可通过 Win + R 输入 cmd 打开命令提示符，依次输入 <code>node -v </code>,<code>npm -v</code>,<code>git --version</code>并回车，出现如下图版本号即可。</p>
-<p><img src="https://z3.ax1x.com/2021/08/15/fgpkNR.png" alt="命令提示符"></p>
+<p><img src="https://z3.ax1x.......com/2021/08/15/fgpkNR.png" alt="命令提示符"></p>
 </li>
 </ul>
 <hr>
@@ -88,7 +64,6 @@ $ git config --global user.email &quot;GitHub 邮箱&quot;
 </code></pre>
 <p>稍等一会安装完成</p>
 <hr>
-<p><a href="#%E7%9B%AE%E5%BD%95">回到目录</a></p>
 <h2 id="2-在本地部署-Hexo-博客程序"><a href="#2-在本地部署-Hexo-博客程序" class="headerlink" title="2. 在本地部署 Hexo 博客程序"></a>2. 在本地部署 Hexo 博客程序</h2><p>初始化并安装所需组件:</p>
 <pre><code class="python">$ hexo init      # 初始化
 $ npm install    # 安装组件
@@ -98,9 +73,12 @@ $ npm install    # 安装组件
 $ hexo s        # 启动本地服务器预览
 </code></pre>
 <p>等待命令运行完成在浏览器中访问 <code>http://localhost:4000</code>，出现 Hexo 默认页面，在本地博客搭建大成功！(＾Ｕ＾)ノ~ＹＯ</p>
-<hr>
-<p><a href="#%E7%9B%AE%E5%BD%95">回到目录</a></p>
-<h2 id="3-部署-Hexo-到-GithubPages仓库"><a href="#3-部署-Hexo-到-GithubPages仓库" class="headerlink" title="3. 部署 Hexo 到 GithubPages仓库"></a>3. 部署 Hexo 到 GithubPages仓库</h2><p>接下来是将在本地搭建成功的博客上传到 Github Pages 仓库，使其可以在互联网中访问</p>
+<ul>
+<li><ul>
+<li><h2 id="3-部署-Hexo-到"><a href="#3-部署-Hexo-到" class="headerlink" title="3. 部署 Hexo 到"></a>3. 部署 Hexo 到</h2>接下来是将在本地搭建成功的博客上传到 Github Pages 仓库，使其可以在互联网中访问</li>
+</ul>
+</li>
+</ul>
 <p>首先是安装 <code>hexo-deployer-git</code>:</p>
 <pre><code class="python">$ npm install nexo-deployer-git --save
 </code></pre>
@@ -114,8 +92,6 @@ $ hexo s        # 启动本地服务器预览
 <pre><code class="python">$ hexo d
 </code></pre>
 <p>部署完成，访问我们的 Github Pages 域名 <code>https://用户名.github.io</code>.</p>
-<hr>
-<p><a href="#%E7%9B%AE%E5%BD%95">回到目录</a></p>
 <h2 id="4-开始使用"><a href="#4-开始使用" class="headerlink" title="4. 开始使用"></a>4. 开始使用</h2><ul>
 <li>发布文章</li>
 </ul>
@@ -127,10 +103,7 @@ $ hexo s        # 启动本地服务器预览
 <li>常用指令</li>
 </ul>
 <pre><code class="python">hexo new &quot;name&quot;       # 新建文章
-hexo new page &quot;name&quot;  # 新建页面
-hexo g                # 生成页面
-hexo d                # 部署
-hexo g -d             # 生成页面并部署
+hexo new page &quot;name
 hexo s                # 本地预览
 hexo clean            # 清除缓存和已生成的静态文件
 hexo help             # 帮助
@@ -159,13 +132,36 @@ hexo help             # 帮助
 </ul>
 <p>进入 themes/主题 文件夹，打开 <code>_config.yml</code> 配置文件，找到<code> favicon</code> 修改。（不同主题可能略有差别）</p>
 <hr>
-<p><a href="#%E7%9B%AE%E5%BD%95">回到目录</a></p>
 <h2 id="5-结语"><a href="#5-结语" class="headerlink" title="5. 结语"></a>5. 结语</h2><p>下面就可以开始博客的使用了，Hexo 是纯静态的博客所以一定不要忘了在本地完成文章再部署至 Github Pages。</p>
 ]]></content>
       <tags>
-        <tag>Hexo</tag>
-        <tag>博客搭建</tag>
         <tag>前端</tag>
+        <tag>博客搭建</tag>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2021/08/14/14-18-55/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<span id="more"></span>
+
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;
+</code></pre>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server
+</code></pre>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate
+</code></pre>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy
+</code></pre>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <tags>
+        <tag>博客搭建</tag>
+        <tag>Hexo</tag>
       </tags>
   </entry>
 </search>
